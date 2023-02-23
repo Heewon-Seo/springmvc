@@ -136,6 +136,8 @@ public class RequestParamController {
      * MultiValueMap(key=[value1, value2, ...])
      * ex: (key=userIds, value=[id1, id2])
      *
+     * 파라미터의 값이 1개가 확실하다면 Map 을 사용해도 되지만,
+     * 그렇지 않다면 MultiValueMap 을 사용하자.
      * @param paramMap
      * @return
      */
