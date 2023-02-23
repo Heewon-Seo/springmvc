@@ -140,7 +140,7 @@ public class RequestParamController {
      * @return
      */
     @ResponseBody
-    @RequestMapping("/request-param-map")
+   @RequestMapping("/request-param-map")
     public String requestParamMap(@RequestParam Map<String, Object> paramMap) {
         log.info("username={}, age={}", paramMap.get("username"), paramMap.get("age"));
         return "OK";
