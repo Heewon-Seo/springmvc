@@ -39,4 +39,9 @@ public class MappingClassController {
         return "delete userId = " + userId;
     }
 
+    @RequestMapping("/test")
+    public String testUser(@PathVariable String userId) {
+        return "testUser userId = " + userId;
+    }
+
 }
